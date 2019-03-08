@@ -1,0 +1,33 @@
+{
+  "name": "yelp_camp_v1",
+  "version": "1.0.0",
+  "description": "Yelp Camp: Basics",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Victor Chan",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "cloudinary": "^1.9.1",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "geocoder": "^0.2.3",
+    "locus": "^2.0.1",
+    "method-override": "^2.3.10",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.3",
+    "multer": "^1.3.0",
+    "nodemailer": "^4.4.2",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.5.0",
+    "process-env": "^1.1.0",
+    "request": "^2.83.0"
+  }
+}

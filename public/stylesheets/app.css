@@ -1,0 +1,92 @@
+.thumbnail img {
+    width: 100%;
+}
+.thumbnail{
+    padding: 0;
+}
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+#delete-form{
+    display:inline;
+}
+.delete-form{
+    display:inline;
+}
+/*Google maps styling*/
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+.jumbotron{
+    
+    background-image: url("https://source.unsplash.com/Ta0A1miYZKc");
+    background-size: cover;
+    color:white;
+    height: 350px;
+}
+
+/* Older browser support - .no-cssanimations class added by modernizr */
+.no-cssanimations .slideshow2 li {
+	opacity: 1;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #343a40;
+}
+
+footer div p{
+    color:white;
+}
+
+footer div p a{
+    color:white;
+}
+
+body{
+    margin-bottom: 60px;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+html{
+    position: relative;
+    min-height: 100%
+}
+
+/*--------Form CSS from Bootstrap 4--------------*/
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
